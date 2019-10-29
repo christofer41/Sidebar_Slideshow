@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    border: 2px blue solid;
+    height: 100%;
+    width: 100%;
+}
+
+.hamburger{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+#myLinks{
+    border: 2px green solid;
+    width: 17%;
+    height: 100%;
+    position: absolute;
+}
+
+.slideshowContainer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.slideshowImages {
+    display: none;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  img{
+      width: 100%;
+      height: 100%;
+  }
+
+img{
+    width: 100%;
+    height: 100%;
+}
