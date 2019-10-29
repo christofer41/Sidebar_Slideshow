@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    border: 2px blue solid;
     height: 100%;
     width: 100%;
 }
@@ -12,17 +11,35 @@ body{
     position: absolute;
 }
 
-#myLinks{
+aside{
     border: 2px green solid;
     width: 17%;
     height: 100%;
     position: absolute;
 }
 
+.userName{
+    display: flex;
+    justify-content: center;
+    border: red 2px solid;
+}
+
+.myLinks{
+    grid-area: mylinks;
+    display: flex;
+    flex-direction: column;
+    border: green 2px solid;
+}
+
+.settings{
+    border: blue 2px solid;
+}
+
 .slideshowContainer{
     width: 100%;
     height: 100%;
     position: absolute;
+    border: 2px blue solid;
 }
 
 .slideshowImages {
@@ -36,19 +53,15 @@ body{
     animation-duration: 1.5s;
   }
   
-  @-webkit-keyframes fade {
+@-webkit-keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
-  }
+}
   
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  img{
-      width: 100%;
-      height: 100%;
-  }
+@keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+}
 
 img{
     width: 100%;
