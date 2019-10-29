@@ -18,3 +18,13 @@ function showSlides() {
     slideIndex++;
   }
 }
+
+function hamburgerMenu() {
+    var x = document.getElementById("theSideBar");
+
+    if (x.style.display === "flex") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
+    }
+}
